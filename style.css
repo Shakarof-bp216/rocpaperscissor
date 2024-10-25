@@ -1,0 +1,66 @@
+.header {
+    background-color: orange;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerpart {
+    height: 773px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.Score {
+    text-align: right;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+.myhand {
+    width: 90%;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 100px;
+    margin-top: 150px;
+
+}
+
+.myhand_box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myhand_box i {
+    font-size: 50px;
+}
+
+.chossepart {
+    margin-top: 40px;
+    text-align: center;
+}
+.button_contanier{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+ 
+#winorlose {
+    width: 170px;
+    height: 60px;
+    border-radius: 15px;
+}
